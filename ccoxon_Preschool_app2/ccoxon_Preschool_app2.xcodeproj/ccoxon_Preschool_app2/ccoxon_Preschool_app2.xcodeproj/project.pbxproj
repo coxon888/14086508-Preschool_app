@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD2285841DE883FE002A7A18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2285831DE883FE002A7A18 /* AppDelegate.swift */; };
+		DD2285861DE883FE002A7A18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2285851DE883FE002A7A18 /* ViewController.swift */; };
+		DD2285891DE883FE002A7A18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2285871DE883FE002A7A18 /* Main.storyboard */; };
+		DD22858B1DE883FE002A7A18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD22858A1DE883FE002A7A18 /* Assets.xcassets */; };
+		DD22858E1DE883FE002A7A18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD22858C1DE883FE002A7A18 /* LaunchScreen.storyboard */; };
+		DD2285991DE883FE002A7A18 /* ccoxon_Preschool_app2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2285981DE883FE002A7A18 /* ccoxon_Preschool_app2Tests.swift */; };
+		DD2285A41DE883FE002A7A18 /* ccoxon_Preschool_app2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2285A31DE883FE002A7A18 /* ccoxon_Preschool_app2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD2285951DE883FE002A7A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD2285781DE883FE002A7A18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD22857F1DE883FE002A7A18;
+			remoteInfo = ccoxon_Preschool_app2;
+		};
+		DD2285A01DE883FE002A7A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD2285781DE883FE002A7A18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD22857F1DE883FE002A7A18;
+			remoteInfo = ccoxon_Preschool_app2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD2285801DE883FE002A7A18 /* ccoxon_Preschool_app2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ccoxon_Preschool_app2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2285831DE883FE002A7A18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD2285851DE883FE002A7A18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD2285881DE883FE002A7A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD22858A1DE883FE002A7A18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD22858D1DE883FE002A7A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD22858F1DE883FE002A7A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2285941DE883FE002A7A18 /* ccoxon_Preschool_app2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ccoxon_Preschool_app2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2285981DE883FE002A7A18 /* ccoxon_Preschool_app2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ccoxon_Preschool_app2Tests.swift; sourceTree = "<group>"; };
+		DD22859A1DE883FE002A7A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD22859F1DE883FE002A7A18 /* ccoxon_Preschool_app2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ccoxon_Preschool_app2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2285A31DE883FE002A7A18 /* ccoxon_Preschool_app2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ccoxon_Preschool_app2UITests.swift; sourceTree = "<group>"; };
+		DD2285A51DE883FE002A7A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD22857D1DE883FE002A7A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2285911DE883FE002A7A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD22859C1DE883FE002A7A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD2285771DE883FE002A7A18 = {
+			isa = PBXGroup;
+			children = (
+				DD2285821DE883FE002A7A18 /* ccoxon_Preschool_app2 */,
+				DD2285971DE883FE002A7A18 /* ccoxon_Preschool_app2Tests */,
+				DD2285A21DE883FE002A7A18 /* ccoxon_Preschool_app2UITests */,
+				DD2285811DE883FE002A7A18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD2285811DE883FE002A7A18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD2285801DE883FE002A7A18 /* ccoxon_Preschool_app2.app */,
+				DD2285941DE883FE002A7A18 /* ccoxon_Preschool_app2Tests.xctest */,
+				DD22859F1DE883FE002A7A18 /* ccoxon_Preschool_app2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD2285821DE883FE002A7A18 /* ccoxon_Preschool_app2 */ = {
+			isa = PBXGroup;
+			children = (
+				DD2285831DE883FE002A7A18 /* AppDelegate.swift */,
+				DD2285851DE883FE002A7A18 /* ViewController.swift */,
+				DD2285871DE883FE002A7A18 /* Main.storyboard */,
+				DD22858A1DE883FE002A7A18 /* Assets.xcassets */,
+				DD22858C1DE883FE002A7A18 /* LaunchScreen.storyboard */,
+				DD22858F1DE883FE002A7A18 /* Info.plist */,
+			);
+			path = ccoxon_Preschool_app2;
+			sourceTree = "<group>";
+		};
+		DD2285971DE883FE002A7A18 /* ccoxon_Preschool_app2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DD2285981DE883FE002A7A18 /* ccoxon_Preschool_app2Tests.swift */,
+				DD22859A1DE883FE002A7A18 /* Info.plist */,
+			);
+			path = ccoxon_Preschool_app2Tests;
+			sourceTree = "<group>";
+		};
+		DD2285A21DE883FE002A7A18 /* ccoxon_Preschool_app2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD2285A31DE883FE002A7A18 /* ccoxon_Preschool_app2UITests.swift */,
+				DD2285A51DE883FE002A7A18 /* Info.plist */,
+			);
+			path = ccoxon_Preschool_app2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD22857F1DE883FE002A7A18 /* ccoxon_Preschool_app2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD2285A81DE883FE002A7A18 /* Build configuration list for PBXNativeTarget "ccoxon_Preschool_app2" */;
+			buildPhases = (
+				DD22857C1DE883FE002A7A18 /* Sources */,
+				DD22857D1DE883FE002A7A18 /* Frameworks */,
+				DD22857E1DE883FE002A7A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ccoxon_Preschool_app2;
+			productName = ccoxon_Preschool_app2;
+			productReference = DD2285801DE883FE002A7A18 /* ccoxon_Preschool_app2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD2285931DE883FE002A7A18 /* ccoxon_Preschool_app2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD2285AB1DE883FE002A7A18 /* Build configuration list for PBXNativeTarget "ccoxon_Preschool_app2Tests" */;
+			buildPhases = (
+				DD2285901DE883FE002A7A18 /* Sources */,
+				DD2285911DE883FE002A7A18 /* Frameworks */,
+				DD2285921DE883FE002A7A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD2285961DE883FE002A7A18 /* PBXTargetDependency */,
+			);
+			name = ccoxon_Preschool_app2Tests;
+			productName = ccoxon_Preschool_app2Tests;
+			productReference = DD2285941DE883FE002A7A18 /* ccoxon_Preschool_app2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD22859E1DE883FE002A7A18 /* ccoxon_Preschool_app2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD2285AE1DE883FE002A7A18 /* Build configuration list for PBXNativeTarget "ccoxon_Preschool_app2UITests" */;
+			buildPhases = (
+				DD22859B1DE883FE002A7A18 /* Sources */,
+				DD22859C1DE883FE002A7A18 /* Frameworks */,
+				DD22859D1DE883FE002A7A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD2285A11DE883FE002A7A18 /* PBXTargetDependency */,
+			);
+			name = ccoxon_Preschool_app2UITests;
+			productName = ccoxon_Preschool_app2UITests;
+			productReference = DD22859F1DE883FE002A7A18 /* ccoxon_Preschool_app2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD2285781DE883FE002A7A18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Craig Coxon";
+				TargetAttributes = {
+					DD22857F1DE883FE002A7A18 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VF3W8AJV3S;
+						ProvisioningStyle = Automatic;
+					};
+					DD2285931DE883FE002A7A18 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VF3W8AJV3S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD22857F1DE883FE002A7A18;
+					};
+					DD22859E1DE883FE002A7A18 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VF3W8AJV3S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD22857F1DE883FE002A7A18;
+					};
+				};
+			};
+			buildConfigurationList = DD22857B1DE883FE002A7A18 /* Build configuration list for PBXProject "ccoxon_Preschool_app2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD2285771DE883FE002A7A18;
+			productRefGroup = DD2285811DE883FE002A7A18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD22857F1DE883FE002A7A18 /* ccoxon_Preschool_app2 */,
+				DD2285931DE883FE002A7A18 /* ccoxon_Preschool_app2Tests */,
+				DD22859E1DE883FE002A7A18 /* ccoxon_Preschool_app2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD22857E1DE883FE002A7A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD22858E1DE883FE002A7A18 /* LaunchScreen.storyboard in Resources */,
+				DD22858B1DE883FE002A7A18 /* Assets.xcassets in Resources */,
+				DD2285891DE883FE002A7A18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2285921DE883FE002A7A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD22859D1DE883FE002A7A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD22857C1DE883FE002A7A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2285861DE883FE002A7A18 /* ViewController.swift in Sources */,
+				DD2285841DE883FE002A7A18 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2285901DE883FE002A7A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2285991DE883FE002A7A18 /* ccoxon_Preschool_app2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD22859B1DE883FE002A7A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2285A41DE883FE002A7A18 /* ccoxon_Preschool_app2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD2285961DE883FE002A7A18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD22857F1DE883FE002A7A18 /* ccoxon_Preschool_app2 */;
+			targetProxy = DD2285951DE883FE002A7A18 /* PBXContainerItemProxy */;
+		};
+		DD2285A11DE883FE002A7A18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD22857F1DE883FE002A7A18 /* ccoxon_Preschool_app2 */;
+			targetProxy = DD2285A01DE883FE002A7A18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD2285871DE883FE002A7A18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD2285881DE883FE002A7A18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD22858C1DE883FE002A7A18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD22858D1DE883FE002A7A18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD2285A61DE883FE002A7A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD2285A71DE883FE002A7A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD2285A91DE883FE002A7A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VF3W8AJV3S;
+				INFOPLIST_FILE = ccoxon_Preschool_app2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ccoxon.ccoxon-Preschool-app2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DD2285AA1DE883FE002A7A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VF3W8AJV3S;
+				INFOPLIST_FILE = ccoxon_Preschool_app2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ccoxon.ccoxon-Preschool-app2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DD2285AC1DE883FE002A7A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VF3W8AJV3S;
+				INFOPLIST_FILE = ccoxon_Preschool_app2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ccoxon.ccoxon-Preschool-app2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ccoxon_Preschool_app2.app/ccoxon_Preschool_app2";
+			};
+			name = Debug;
+		};
+		DD2285AD1DE883FE002A7A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VF3W8AJV3S;
+				INFOPLIST_FILE = ccoxon_Preschool_app2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ccoxon.ccoxon-Preschool-app2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ccoxon_Preschool_app2.app/ccoxon_Preschool_app2";
+			};
+			name = Release;
+		};
+		DD2285AF1DE883FE002A7A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VF3W8AJV3S;
+				INFOPLIST_FILE = ccoxon_Preschool_app2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ccoxon.ccoxon-Preschool-app2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ccoxon_Preschool_app2;
+			};
+			name = Debug;
+		};
+		DD2285B01DE883FE002A7A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VF3W8AJV3S;
+				INFOPLIST_FILE = ccoxon_Preschool_app2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ccoxon.ccoxon-Preschool-app2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ccoxon_Preschool_app2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD22857B1DE883FE002A7A18 /* Build configuration list for PBXProject "ccoxon_Preschool_app2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2285A61DE883FE002A7A18 /* Debug */,
+				DD2285A71DE883FE002A7A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD2285A81DE883FE002A7A18 /* Build configuration list for PBXNativeTarget "ccoxon_Preschool_app2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2285A91DE883FE002A7A18 /* Debug */,
+				DD2285AA1DE883FE002A7A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD2285AB1DE883FE002A7A18 /* Build configuration list for PBXNativeTarget "ccoxon_Preschool_app2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2285AC1DE883FE002A7A18 /* Debug */,
+				DD2285AD1DE883FE002A7A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD2285AE1DE883FE002A7A18 /* Build configuration list for PBXNativeTarget "ccoxon_Preschool_app2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2285AF1DE883FE002A7A18 /* Debug */,
+				DD2285B01DE883FE002A7A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD2285781DE883FE002A7A18 /* Project object */;
+}
