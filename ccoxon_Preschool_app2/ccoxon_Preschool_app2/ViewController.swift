@@ -9,6 +9,12 @@
 import UIKit
 import Foundation // used for randomizer
 
+// global variables
+
+var randomNo1 = 0
+var randomNo2 = 0
+var sumOf: Int!
+
 class ViewController: UIViewController {
 
     // UI outlets
@@ -21,9 +27,6 @@ class ViewController: UIViewController {
     
     // variables
     
-    var randomNo1 = 0
-    var randomNo2 = 0
-    var sumOf: Int!
     var debugMode: Bool! = true // debug mode switch
     var isCorrect: Bool!
     
@@ -37,6 +40,8 @@ class ViewController: UIViewController {
                     result = true
                     debugResult.text = "Correct"
                     labelAnswer.textColor = UIColor.green
+                    usleep(500)
+                    self.performSegue(withIdentifier: "correctAnswerChosen", sender: self)
                     return result
                 } else {
                     result = false

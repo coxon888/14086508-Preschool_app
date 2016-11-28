@@ -14,6 +14,7 @@
 		DD22858E1DE883FE002A7A18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD22858C1DE883FE002A7A18 /* LaunchScreen.storyboard */; };
 		DD2285991DE883FE002A7A18 /* ccoxon_Preschool_app2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2285981DE883FE002A7A18 /* ccoxon_Preschool_app2Tests.swift */; };
 		DD2285A41DE883FE002A7A18 /* ccoxon_Preschool_app2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2285A31DE883FE002A7A18 /* ccoxon_Preschool_app2UITests.swift */; };
+		DDEC646E1DEC637300859308 /* correctViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEC646D1DEC637300859308 /* correctViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DD22859F1DE883FE002A7A18 /* ccoxon_Preschool_app2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ccoxon_Preschool_app2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2285A31DE883FE002A7A18 /* ccoxon_Preschool_app2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ccoxon_Preschool_app2UITests.swift; sourceTree = "<group>"; };
 		DD2285A51DE883FE002A7A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDEC646D1DEC637300859308 /* correctViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = correctViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				DD22858A1DE883FE002A7A18 /* Assets.xcassets */,
 				DD22858C1DE883FE002A7A18 /* LaunchScreen.storyboard */,
 				DD22858F1DE883FE002A7A18 /* Info.plist */,
+				DDEC646D1DEC637300859308 /* correctViewController.swift */,
 			);
 			path = ccoxon_Preschool_app2;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				DD2285861DE883FE002A7A18 /* ViewController.swift in Sources */,
 				DD2285841DE883FE002A7A18 /* AppDelegate.swift in Sources */,
+				DDEC646E1DEC637300859308 /* correctViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +518,7 @@
 				DD2285AA1DE883FE002A7A18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD2285AB1DE883FE002A7A18 /* Build configuration list for PBXNativeTarget "ccoxon_Preschool_app2Tests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				DD2285AD1DE883FE002A7A18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD2285AE1DE883FE002A7A18 /* Build configuration list for PBXNativeTarget "ccoxon_Preschool_app2UITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				DD2285B01DE883FE002A7A18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
