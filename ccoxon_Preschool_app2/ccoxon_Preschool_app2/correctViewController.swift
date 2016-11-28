@@ -8,6 +8,8 @@
 
 import UIKit
 
+// extension used to animate images
+
 extension UIView {
 
     func fadeIn(withDuration duration: TimeInterval = 1) {
@@ -34,7 +36,12 @@ class correctViewController: UIViewController {
     @IBOutlet var star1: UIImageView!
     @IBOutlet var star2: UIImageView!
     @IBOutlet var star3: UIImageView!
+    @IBOutlet var buttonPlayAgain: UIButton!
 
+    @IBAction func buttonPlayAgain(_ sender: Any) {
+    }
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -54,14 +61,13 @@ class correctViewController: UIViewController {
         labelPlus.textColor = UIColor.green
         labelEquals.textColor = UIColor.green
         
-        // animate images
-        
-        
+        buttonPlayAgain.isHidden = true
         
     }
     
     override func viewDidAppear(_ animated: Bool) {
         
+        // animate images
         
         star1.fadeOut()
         star1.fadeIn()
@@ -69,8 +75,10 @@ class correctViewController: UIViewController {
         star2.fadeIn()
         star3.fadeOut()
         star3.fadeIn()
-
         
+        // enable the play again button
+        
+        buttonPlayAgain.isHidden = false
     }
 
     override func didReceiveMemoryWarning() {

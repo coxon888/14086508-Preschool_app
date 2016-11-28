@@ -257,7 +257,7 @@
                         <outlet property="labelAnswer" destination="aku-qZ-dxy" id="1bJ-su-nbN"/>
                         <outlet property="labelNo1" destination="nv4-RE-wBq" id="EAo-BB-4Kh"/>
                         <outlet property="labelNo2" destination="XkR-Qa-JSr" id="I5r-wb-qmO"/>
-                        <segue destination="TUO-Yl-PyA" kind="show" identifier="correctAnswerChosen" id="Zz5-Y8-4nu"/>
+                        <segue destination="TUO-Yl-PyA" kind="presentation" identifier="correctAnswerChosen" id="Zz5-Y8-4nu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -393,10 +393,20 @@
                                 <rect key="frame" x="-4" y="273" width="90" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vqt-Hc-PIf" userLabel="buttonPlayAgain">
+                                <rect key="frame" x="112" y="259" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="play_again"/>
+                                <connections>
+                                    <action selector="buttonPlayAgain:" destination="TUO-Yl-PyA" eventType="touchUpInside" id="cqG-nx-KKs"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="F3Y-kM-dll"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="buttonPlayAgain" destination="Vqt-Hc-PIf" id="hiu-km-7sY"/>
                         <outlet property="labelAnswer" destination="Q9v-KL-R8G" id="n4F-gC-QwC"/>
                         <outlet property="labelEquals" destination="ztF-Z7-V1Q" id="20s-rW-Cr0"/>
                         <outlet property="labelNo1" destination="4fL-Av-1Na" id="1bl-RN-qnQ"/>
@@ -425,6 +435,7 @@
         <image name="number8" width="256" height="256"/>
         <image name="number9" width="256" height="256"/>
         <image name="plate_white" width="1600" height="1200"/>
+        <image name="play_again" width="216" height="218"/>
         <image name="star_kids" width="256" height="256"/>
         <image name="thumbs_up" width="256" height="256"/>
     </resources>
