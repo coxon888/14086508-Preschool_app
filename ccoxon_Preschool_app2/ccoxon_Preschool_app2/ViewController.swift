@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     
     // variables
     
-    var debugMode: Bool! = true // debug mode switch
+    var debugMode: Bool! = false // debug mode switch
     var isCorrect: Bool!
     
     // function declarations
