@@ -36,10 +36,12 @@ class ViewController: UIViewController {
                 if userAns == correctAns {
                     result = true
                     debugResult.text = "Correct"
+                    labelAnswer.textColor = UIColor.green
                     return result
                 } else {
                     result = false
                     debugResult.text = "Wrong"
+                    labelAnswer.textColor = UIColor.red
                     return result
                 }
             }
@@ -88,6 +90,15 @@ class ViewController: UIViewController {
         isCorrect = checkAnswer(userAns: 9, correctAns: sumOf)
     }
     
+    // moving the apples
+    
+    @IBAction func handlePan(recognizer:UIPanGestureRecognizer) {
+        let translation = recognizer.translation(in: self.view)
+        if let view = recognizer.view {
+            view.center = CGPoint(x:view.center.x + translation.x,y:view.center.y + translation.y)
+        }
+        recognizer.setTranslation(CGPoint(), in: self.view)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
