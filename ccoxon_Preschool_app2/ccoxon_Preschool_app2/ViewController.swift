@@ -43,7 +43,7 @@ class ViewController: UIViewController {
                     return result
                 }
             }
-    
+
     // number button presses
     
 
